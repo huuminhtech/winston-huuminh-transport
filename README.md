@@ -4,7 +4,7 @@ npm install --save winston-huuminh-transport
 ```
 ### Usage
 
-```sh
+```javascript
 const opts = {
 	level: 'verbose',
     filename: 'huuminh.log',
