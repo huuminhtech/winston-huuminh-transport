@@ -1,0 +1,30 @@
+{
+	"name": "winston-huuminh-transport",
+	"version": "1.0.0",
+	"description": "Add stream logging for winston version 3",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/huuminhtech/winston-huuminh-transport.git"
+	},
+	"keywords": [
+		"huuminh transport",
+		"winston transport",
+		"winston save logfile",
+		"winston save log",
+		"winston log",
+		"winston save"
+	],
+	"author": "Minh Nguyen",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/huuminhtech/winston-huuminh-transport/issues"
+	},
+	"homepage": "https://huuminh.net",
+	"dependencies": {
+		"fs": "0.0.1-security",
+		"util": "^0.10.3",
+		"winston-transport": "^3.1.0",
+		"zlib": "^1.0.5"
+	}
+}
