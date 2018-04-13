@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+*.gz
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -57,3 +58,6 @@ typings/
 # dotenv environment variables file
 .env
 
+#Mac
+.DS_Store
+.idea
