@@ -1,14 +1,20 @@
-###Installing
+### Installing
 ```sh
-npm install mdl-logger
+npm install --save winston-huuminh-transport
 ```
-###Setup
+### Usage
 
 ```sh
-var logger = require('mdl-logger');
-logger.init(express-app);
-```
+const opts = {
+	level: 'verbose',
+    filename: 'huuminh.log',
+    dirname: path.join(__dirname, "logs")
+};
 
-###New Features!
-#####Version 1.0.0 (April 13, 2018)
-- Create support logger for MDL Script
+const logger = winston.createLogger({
+    level: 'info',
+    transports: [
+        require('./modules/winston-huuminh-transport')(opts)
+    ]
+});
+```
